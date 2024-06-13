@@ -1,0 +1,95 @@
+body{
+    /*
+    radial gradient: https://cssgradient.io/ 
+    */
+    background: rgb(46,125,103);
+    background: radial-gradient(circle, rgba(46,125,103,1) 1%, rgba(52,150,118,1) 32%, rgba(58,175,133,1) 62%, rgba(73,137,111,1) 100%);
+    color: rgb(236, 233, 233);
+    font: optional;
+    text-align: center;
+    margin: 50px;
+}
+/*
+converting rgb to hex: https://www.rgbtohex.net/
+*/
+#todoContainer{
+    background-color: #ECE9E9;
+    padding: 20px;
+    border-radius: 15px;
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid #65CC83;
+}
+.header{
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1, h2{
+    margin-bottom: 20px;
+    color: #65CC83;
+}
+.todoInput{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+#addBtn:hover{
+    background-color: #4A8B74;
+}
+#inputBox{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+li{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #65CC83;
+    text-align: left;
+    font-size: 20px;
+    list-style: none;
+    word-wrap: break-word;
+    white-space: normal;
+    display: block;
+}
+
+.editBtn, .deleteBtn{
+    text-align: end;
+    color:rgb(18, 18, 18);
+    cursor: pointer;
+    margin: 3px 3px;
+    padding: 3px 3px;
+    border: none;
+    background:none;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: grey;
+    border: 1px solid grey;
+}
+.nowTime{
+    text-align: end;}
